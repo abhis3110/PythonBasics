@@ -20,6 +20,22 @@ def var_types():
     print(i)
 
 
+def condition():
+    print("Enter the Grade Score")
+    x = int(input())
+    if x >= 90:
+        print("A")
+    elif x >= 80:
+        print("B")
+    elif x >= 70:
+        print("C")
+    elif x >= 60:
+        print("D")
+    else:
+        print("E")
+
+
 if __name__ == "__main__":
     # fun()
     var_types()
+    condition()
