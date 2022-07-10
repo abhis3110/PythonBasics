@@ -1,2 +1,3 @@
 # PythonBasics
-# This repository contains code for Python Basics    
+## Python 101
+This repository contains code for Python Basics    
