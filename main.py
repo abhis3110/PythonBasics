@@ -35,7 +35,19 @@ def condition():
         print("E")
 
 
+def leapyear():
+    print("Enter year")
+    x = int(input())
+    if x % 400 == 0:
+        print("Leap Year")
+    elif x % 4 == 0 and x % 100 != 0:
+        print("Leap year")
+    else:
+        print("Not Leap year")
+
+
 if __name__ == "__main__":
     # fun()
-    var_types()
-    condition()
+    # var_types()
+    # condition()
+    leapyear()
