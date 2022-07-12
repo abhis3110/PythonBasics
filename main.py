@@ -46,8 +46,45 @@ def leapyear():
         print("Not Leap year")
 
 
+def print_even():
+    print("Input the number")
+    x = int(input())
+    for i in range(2, x + 1, 2):
+        print(i)
+
+
+def multiplication_table():
+    print("Enter any number from  1 to 10")
+    i = int(input())
+    for i in range(1, i + 1):
+        print("Multiplication table for", i)
+        for j in range(1, 11):
+            print(i, "x", j, "=", i * j)
+
+
+def demo_array():
+    marks = [60, 70, 80, 90, 65, 75]
+    total = 0
+    for i in range(0, len(marks)):
+        total += marks[i]
+    print(total)
+    for value in marks:
+        total += value
+    print(total)
+
+
+def greet(name):
+    print("Hi", name, "Welcome to the class")
+
+
 if __name__ == "__main__":
     # fun()
     # var_types()
     # condition()
-    leapyear()
+    # leapyear()
+    # print_even()
+    # multiplication_table()
+    # demo_array()
+    names = ["neha", "raj", "wasim", "atul", "maps", "ankit"]
+    for values in names:
+        greet(values)
