@@ -77,6 +77,20 @@ def greet(name):
     print("Hi", name, "Welcome to the class")
 
 
+def dicty():
+    records = {
+        "Neha": 100,
+        "Anita": 200,
+        "Rahul": 120
+    }
+    queries = ["Neha", "Anita", "Rahul"]
+    for q in queries:
+        print(records[q])
+    print("Key value pair")
+    for key in records.keys():
+        print(key, records[key], end='\n')
+
+
 if __name__ == "__main__":
     # fun()
     # var_types()
@@ -88,3 +102,4 @@ if __name__ == "__main__":
     names = ["neha", "raj", "wasim", "atul", "maps", "ankit"]
     for values in names:
         greet(values)
+    dicty()
