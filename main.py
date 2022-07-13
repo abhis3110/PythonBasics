@@ -88,7 +88,7 @@ def dicty():
         print(records[q])
     print("Key value pair")
     for key in records.keys():
-        print(key, records[key], end='\n')
+        print(key, records[key])
 
 
 if __name__ == "__main__":
